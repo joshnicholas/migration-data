@@ -69,3 +69,4 @@ console.error: Policies.jsm:
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilel4O34F/search.json.mozlz4", (void 0)))
 1664336790253	Marionette	INFO	Stopped listening on port 53936
+1664336815514	Marionette	INFO	Stopped listening on port 54104
