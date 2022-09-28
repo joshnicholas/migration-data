@@ -35,7 +35,9 @@ driver.get(start_url)
 
 tabs = []
 
-for i in range(0,5):
+for i in range(0,7):
+
+  print(f"##### {i}")
 
   time.sleep(1)
 
@@ -50,9 +52,18 @@ for i in range(0,5):
 
   dumper('input/out', f'{today}', cat)
 
-  button = driver.find_element_by_link_text(f"Next").click()
+  try: 
 
-  time.sleep(5)
+    button = driver.find_element_by_link_text(f"Next").click()
+
+    time.sleep(5)
+
+  except:
+    print("Broken")
+    break
+
+
+driver.close()
 
 # %%
 
