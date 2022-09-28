@@ -1,0 +1,34 @@
+1664335514923	geckodriver	INFO	Listening on 127.0.0.1:64580
+1664335514932	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileOjvVkK"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1664335515257	Marionette	INFO	Marionette enabled
+1664335515284	Marionette	INFO	Listening on port 64589
+1664335515649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileOjvVkK/search.json.mozlz4", (void 0)))
+1664335750011	geckodriver	INFO	Listening on 127.0.0.1:49415
+1664335751023	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilehkb9JF"
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1664335751528	Marionette	INFO	Marionette enabled
+1664335751551	Marionette	INFO	Listening on port 49430
+1664335751953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilehkb9JF/search.json.mozlz4", (void 0)))
+1664335905222	geckodriver	INFO	Listening on 127.0.0.1:50150
+1664335906232	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileswY1I3"
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1664335906755	Marionette	INFO	Marionette enabled
+1664335906779	Marionette	INFO	Listening on port 50167
+1664335907181	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileswY1I3/search.json.mozlz4", (void 0)))
+1664336073660	geckodriver	INFO	Listening on 127.0.0.1:50946
+1664336074673	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileef4O2D"
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1664336075165	Marionette	INFO	Marionette enabled
+1664336075190	Marionette	INFO	Listening on port 50961
+1664336075456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofileef4O2D/search.json.mozlz4", (void 0)))
