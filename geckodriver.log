@@ -70,3 +70,14 @@ console.error: Policies.jsm:
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilel4O34F/search.json.mozlz4", (void 0)))
 1664336790253	Marionette	INFO	Stopped listening on port 53936
 1664336815514	Marionette	INFO	Stopped listening on port 54104
+1664412336464	geckodriver	INFO	Listening on 127.0.0.1:53726
+1664412336486	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile348hsO"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1664412336908	Marionette	INFO	Marionette enabled
+1664412336936	Marionette	INFO	Listening on port 53735
+1664412337335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofile348hsO/search.json.mozlz4", (void 0)))
+1664412375813	Marionette	INFO	Stopped listening on port 53735
