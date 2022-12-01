@@ -159,3 +159,17 @@ console.error: Policies.jsm:
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilev2NJWk/search.json.mozlz4", (void 0)))
 1666562995720	Marionette	INFO	Stopped listening on port 50131
+1668559362884	geckodriver	INFO	Listening on 127.0.0.1:56942
+1668559363381	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "--remote-debugging-port" "56943" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilemmQXXi"
+*** You are running in headless mode.
+console.error: Policies.jsm: 
+  Unable to find certificate - gnm_root_ca.cer
+1668559363981	Marionette	INFO	Marionette enabled
+1668559363995	Marionette	INFO	Listening on port 56953
+Read port: 56953
+WebDriver BiDi listening on ws://127.0.0.1:56943
+1668559364226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/zj/64pcvrn117b35wx61ttyc22dy4rksl/T/rust_mozprofilemmQXXi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56943/devtools/browser/6143a633-3ebd-4abc-8e2f-56e68720edbb
+1668559393803	Marionette	INFO	Stopped listening on port 56953
