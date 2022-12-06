@@ -54,11 +54,12 @@ for i in range(0,7):
 
   try: 
 
-    button = driver.find_element_by_link_text(f"Next").click()
-
+    # button = driver.find_element_by_link_text(f"Next").click()
+    button = driver.find_element("link text", f"Next").click()
     time.sleep(5)
 
-  except:
+  except Exception as e:
+    print(e)
     print("Broken")
     break
 
